@@ -1,6 +1,6 @@
 # Graph Neural Network for pre-selection of solvents involving neutral molecules and ionic liquids
 
-![CI](https://github.com/A-JMinor/GNN_IL_solvent_screening/test.yml/badge.svg)
+![CI](https://github.com/A-JMinor/GNN_IL_solvent_screening/actions/workflows/test.yml/badge.svg)
 
 
 ## Overview
