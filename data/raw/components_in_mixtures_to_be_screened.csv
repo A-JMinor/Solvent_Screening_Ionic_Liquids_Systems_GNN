@@ -1,0 +1,19 @@
+name,formula,smiles,UNIFAC_Do groups,mixture
+BENZENE,C6H6,c1ccccc1,{9:6},aliphatic_aromatic
+N-HEXANE,C6H14,CCCCCC,"{1:2, 2:4}",aliphatic_aromatic/olefin_paraffin/oxygenated
+N-HEPTANE,C7H16,CCCCCCC,"{1:2, 2:5}",aliphatic_aromatic/olefin_paraffin
+N-OCTANE,C8H18,CCCCCCCC,"{1:2, 2:6}",aliphatic_aromatic
+N-NONANE,C9H20,CCCCCCCCC,"{1:2, 2:7}",aliphatic_aromatic
+N-DECANE,C10H22,CCCCCCCCCC,"{1:2, 2:8}",aliphatic_aromatic
+1-HEXENE,C6H12,C=CCCCC,"{1:1, 2:3, 5:1}",olefin_paraffin
+1-HEPTENE,C7H14,CCCCCC=C,"{1:1, 2:4, 5:1}",olefin_paraffin
+PROPANE,C3H8,CCC,"{1:2, 2:1}",olefin_paraffin
+PROPENE,C3H6,C=CC,"{1:1, 5:1}",olefin_paraffin
+METHANOL,CH4O,CO,{15:1},oxygenated
+ETHANOL,C2H6O,CCO,"{1:1, 2:1, 14:1}",oxygenated
+N-PROPANOL,C3H8O,CCCO,"{1:1, 2:2, 14:1}",oxygenated
+2-PROPANOL,C3H8O,CC(C)O,"{1:2, 3:1, 81:1}",oxygenated
+ACETONE,C3H6O,CC(C)=O,"{1:1, 18:1}",oxygenated
+2-BUTANONE,C4H8O,CCC(C)=O,"{1:1, 2:1, 18:1}",oxygenated
+CAPROLACTAM,C6H11NO,C1CCC(=O)NCC1,None,IL
+EMIMBF4,C6H11BF4N2,[B-](F)(F)(F)F.CCN1C=C[N+](=C1)C,None,IL
