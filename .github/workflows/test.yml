@@ -19,10 +19,17 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install PyTorch and torch-scatter first (CPU version)
+    - name: Install PyTorch torch-scatter first (CPU version)
       run: |
         pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
-        pip install torch-scatter==2.1.2 -f https://data.pyg.org/whl/torch-2.7.1+cpu.html
+
+    - name: Install PyTorch Geometric (CPU version)
+      run: |
+        pip install torch_geometric
+
+    - name: Install torch-scatter (CPU version)
+      run: |
+        pip install torch_scatter -f https://data.pyg.org/whl/torch-2.7.0+cpu.html
 
     - name: Install remaining dependencies
       run: |
