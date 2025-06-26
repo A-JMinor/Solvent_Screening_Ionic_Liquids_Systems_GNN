@@ -5,12 +5,6 @@ import os
 import json
 import numpy as np
 from rdkit import Chem
-import matplotlib.pyplot as plt
-import seaborn as sns
-from thermo.unifac import UNIFAC
-import pickle
-from sklearn.metrics import mean_absolute_error, r2_score
-from scipy.optimize import minimize, minimize_scalar
 from tqdm import tqdm
 from models.GHGNN.ghgnn_old import GH_GNN_old
 from models.GHGNN.ghgnn import GH_GNN
