@@ -11,15 +11,15 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: conda-incubator/setup-miniconda@v3
       with:
+        activate-environment: myenv
+        environment-file: environment.yml
         python-version: 3.10.13
+        auto-activate-base: false
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+    - name: Check Python version
+      run: python --version
 
-    - name: Run main script
-      run: |
-        python src/01_screening.py --metric custom_inf
+    - name: Run your script
+      run: python src/solvent_screening/01_screening.py --metric custom_inf
