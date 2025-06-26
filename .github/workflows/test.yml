@@ -37,5 +37,5 @@ jobs:
 
     - name: Run reproducibility check
       run: |
-        python src/solvent_screening/01_screening.py --metric custom_inf
+        python src/01_screening.py --metric custom_inf
 
