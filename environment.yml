@@ -8,12 +8,12 @@ dependencies:
       - mordred==1.2.0
       - pandas==2.3.0
       - rdkit==2025.3.3
-      - torch==2.7.1+cpu
+      - torch
       - pyg_lib
-      - torch-cluster==1.6.3+pt27cpu
-      - torch-geometric==2.6.1
-      - torch-scatter==2.1.2+pt27cpu
-      - torch-sparse==0.6.18+pt27cpu
-      - torch-spline-conv==1.2.2+pt27cpu
+      - torch-cluster
+      - torch-geometric
+      - torch-scatter
+      - torch-sparse
+      - torch-spline-conv
       - tqdm==4.67.1
 
