@@ -35,6 +35,9 @@ jobs:
       run: |
         pip install -r requirements-ci.txt
 
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
+
     - name: Run reproducibility check
       run: |
         python src/01_screening.py --metric custom_inf
