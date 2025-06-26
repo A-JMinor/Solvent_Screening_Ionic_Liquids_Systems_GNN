@@ -13,10 +13,11 @@ jobs:
     - name: Set up Python
       uses: conda-incubator/setup-miniconda@v3
       with:
-        activate-environment: myenv
+        activate-environment: GEGNN
         environment-file: environment.yml
         python-version: 3.10.13
         auto-activate-base: false
+        verbose: true
 
     - name: Check Python version
       run: python --version
