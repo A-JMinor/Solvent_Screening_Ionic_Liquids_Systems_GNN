@@ -7,18 +7,13 @@ dependencies:
   - pip:
       - mordred==1.2.0
       - pandas==2.3.0
-      - pyg-lib==0.4.0+pt27cu118
       - rdkit==2025.3.3
-      - requests==2.32.4
-      - scipy==1.15.3
-      - sympy==1.13.3
-      - torch==2.7.1+cu118
-      - torch-cluster==1.6.3+pt27cu118
+      - torch==2.7.1+cpu
+      - pyg_lib
+      - torch-cluster==1.6.3+pt27cpu
       - torch-geometric==2.6.1
-      - torch-scatter==2.1.2+pt27cu118
-      - torch-sparse==0.6.18+pt27cu118
-      - torch-spline-conv==1.2.2+pt27cu118
-      - torchaudio==2.7.1+cu118
-      - torchvision==0.22.1+cu118
+      - torch-scatter==2.1.2+pt27cpu
+      - torch-sparse==0.6.18+pt27cpu
+      - torch-spline-conv==1.2.2+pt27cpu
       - tqdm==4.67.1
 
