@@ -22,7 +22,7 @@ jobs:
     - name: Install PyTorch and torch-scatter first (CPU version)
       run: |
         pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu
-        pip install torch-scatter
+        pip install torch-scatter==2.1.2 -f https://data.pyg.org/whl/torch-2.7.1+cpu.html
 
     - name: Install remaining dependencies
       run: |
