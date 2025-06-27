@@ -23,11 +23,11 @@ This repository contains the code used for the solvent pre-selection analysis pr
 
 ### Prerequisites
 
-Ensure you have Python installed (version: 3.8 or higher). It is advised to create a virtual environment before installing dependencies.
+Ensure you have Python installed (we tested with 3.10). It is advised to create a virtual environment before installing dependencies.
 
 ```
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python -m venv gnn_solv_screen
+gnn_solv_screen\Scripts\activate
 ```
 
 Then, clone this repository and enter the working folder:
