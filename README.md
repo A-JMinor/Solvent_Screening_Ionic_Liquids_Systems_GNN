@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains the code used for the solvent pre-selection analysis presented in the paper [Solvent Screening and Conceptual Process Design for the Chemical Recycling of Nylon 6 to Caprolactam Using Ionic Liquids](). This work makes use of an extended Gibbs-Helmholtz Graph Neural Network that predicts infinite dilution activity coefficients of systems that include neutral and ionic molecules.
+This repository contains the code used for the solvent pre-selection analysis presented in the paper [Chemical recycling of nylon 6 using ionic liquids: From solvent screening to techno-economic assessment](https://doi.org/10.1016/j.seppur.2025.136502). This work makes use of an extended Gibbs-Helmholtz Graph Neural Network that predicts infinite dilution activity coefficients of systems that include neutral and ionic molecules.
 
 ## Repository Structure
 
