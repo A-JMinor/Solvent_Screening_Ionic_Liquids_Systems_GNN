@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite the associated paper."
+title: "GNN_IL_solvent_screening"
+type: software
+authors:
+  - family-names: Minor
+    given-names: Ann-Joelle
+  - family-names: Sanchez Medina
+    given-names: Edgar Ivan
+  - family-names: Goldhahn
+    given-names: Ruben
+  - family-names: Linke
+    given-names: Steffen
+  - family-names: Rihko-Struckmann
+    given-names: Liisa
+  - family-names: Sundmacher
+    given-names: Kai
+repository-code: "https://github.com/A-JMinor/GNN_IL_solvent_screening"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Minor
+      given-names: Ann-Joelle
+    - family-names: Sanchez Medina
+      given-names: Edgar Ivan
+    - family-names: Goldhahn
+      given-names: Ruben
+    - family-names: Linke
+      given-names: Steffen
+    - family-names: Rihko-Struckmann
+      given-names: Liisa
+    - family-names: Sundmacher
+      given-names: Kai
+  title: "Chemical recycling of nylon 6 using ionic liquids: From solvent screening to techno-economic assessment"
+  journal: "Separation and Purification Technology"
+  year: 2026
+  volume: 386
+  article-number: 136502
+  doi: "10.1016/j.seppur.2025.136502"
