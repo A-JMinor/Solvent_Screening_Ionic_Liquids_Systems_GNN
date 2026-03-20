@@ -70,7 +70,6 @@ https://doi.org/10.1016/j.seppur.2025.136502
 
 Citation metadata are also provided in `CITATION.cff`
 
-```
 
 ## Related works
 
