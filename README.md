@@ -63,6 +63,13 @@ To execute simply run:
 
 If you use this repository in your research, please cite our paper:
 
+Minor, A.-J.; Sanchez Medina, E. I.; Goldhahn, R.; Linke, S.; Rihko-Struckmann, L.; Sundmacher, K. 
+Chemical recycling of nylon 6 using ionic liquids: From solvent screening to techno-economic assessment. 
+Separation and Purification Technology 2026, 386, 136502. 
+https://doi.org/10.1016/j.seppur.2025.136502
+
+Citation metadata are also provided in `CITATION.cff`
+
 ```
 
 ```
