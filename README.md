@@ -72,8 +72,6 @@ Citation metadata are also provided in `CITATION.cff`
 
 ```
 
-```
-
 ## Related works
 
 You might be interested in checking other related works:
